@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.contenedor{
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banerpapa{
+    background-color:cornflowerblue;
+    height: 250px;
+}
+.baner{
+    color: white;
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+.titu{
+    font-size: 50px;
+}
+.titu2{
+    text-align: center;
+    font-size: 60px;
+}
+
+.list-cursos{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 70px;
+}
+@media (max-width : 700px){
+    .list-cursos{
+        width: 90%;
+        margin: 0 auto;
+        gap: 0;
+    }
+}
+.list-cursos> article{
+    width: 230px;
+    border: 1px solid black;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+}
+@media (max-width : 700px){
+    .list-cursos>article{
+       
+        margin: 10px auto;
+      
+    }
+}
+
+.preci{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.cursos{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    background-color: white;
+    
+}
+
+.agregarCarrito{
+    background-color: rgb(0, 183, 255);
+    color: white;
+    border: none;
+    width: 80%;
+    height: 40px;
+    margin: 0 auto;
+}
+.hijo{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.cursi{
+    display: flex;
+    justify-content: space-between;
+}
+.borrar-curso{
+    background-color: red;
+    color: white;
+}
